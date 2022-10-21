@@ -401,7 +401,7 @@ var diveSelection;
       setTimeout(function () {
         // alert("You win!!! Click OK to play again.");
         swal({
-          title: "You win!",
+          title: "END ROUND!",
           text: "Click below to play again.",
           confirmButtonText: "PLAY AGAIN",
           confirmButtonColor: "#008df9",
@@ -417,7 +417,7 @@ var diveSelection;
       setTimeout(function () {
         // alert("Looks like you need some more practice. Click OK to try again.")
         swal({
-          title: "You Lose!",
+          title: "END ROUND!",
           text: "Looks like you need some more practice. Click below to face off against Hope Solo again.",
           confirmButtonText: "PLAY AGAIN",
           confirmButtonColor: "#008df9",
